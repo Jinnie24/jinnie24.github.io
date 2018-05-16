@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Indira Dzhanibekova</title>
+  
+  <link rel="stylesheet" href="./assets/reset.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--<script src="holder.js"></script>-->
+</head>
+
+<body background="./assets/symphony/symphony.png">
+  <div class="menu">
+    <a class="btn" id="home" href="index.html">Indira Dzhanibekova</a>
+    <a class="btn" id="contact" href="contact.html">Contact</a>
+    <a class="btn" id="portfolio" href="portfolio.html">Portfolio</a>
+    <a class="btn" id="about" href="index.html">About</a>
+  </div>
+
+  <div class="container">
+        <div id="after_submit"></div>
+        <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+          <div class="row">
+            <label class="required" for="name">Name:</label><br />
+            <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+            <span id="name_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="email">Email:</label><br />
+            <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+            <span id="email_validation" class="error_message"></span>
+          </div>
+          <div class="row">
+            <label class="required" for="message">Message:</label><br />
+            <textarea id="message" class="input" name="message" rows="15" cols="70"></textarea><br />
+            <span id="message_validation" class="error_message"></span>
+          </div>
+            
+            <input id="submit_button" type="submit" value="Send email" />
+        </form>
+  </div>
+
+  <footer>
+  </footer>
+</body>
+
+</html>

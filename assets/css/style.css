@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    text-align: left;
+    background-image: url("symphony.png");
+
+  }
+  
+  body {
+    font-size: 24px;
+    line-height: 32px;
+
+  }
+  
+  .menu {
+    margin-bottom: 20px;
+    color: rgb(102, 102, 102);
+    padding: 40px;
+    background: rgb(119, 187, 191);
+  }
+  
+  .container {
+    padding: 20px;
+    margin-bottom: 20px;
+    background: lightblue;
+    color: darkslategrey;
+    border-color: #dddddd;
+    border: 4px;
+  }
+
+  h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    background-color: lightblue;
+    color: darkslategrey;
+    text-align: center;
+  }
+  
+  #home {
+    float: left;
+    width: 20%;
+    height: 80px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -40px;
+    text-align: center;
+    font-size: 115%;
+    font-family: "Big Caslon", Times, serif;
+    font-weight: bold;
+    padding-top: 18px;
+    background: rgb(40, 62, 64);
+  }
+  
+  #about{
+    float: right;
+    width: 15%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -18px;
+    text-align: center;
+    font-size: 115%;
+    font-family: "Big Caslon", Times, serif;
+    font-weight: bold;
+    background: rgb(119, 187, 191);
+    
+  }
+  
+  #portfolio {
+    float: right;
+    width: 15%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -18px;
+    text-align: center;
+    font-size: 115%;
+    font-family: "Big Caslon", Times, serif;
+    font-weight: bold;
+    background: rgb(119, 187, 191);
+  }
+
+  #contact {
+    float: right;
+    width: 15%;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: -18px;
+    text-align: center;
+    font-size: 115%;
+    font-family: "Big Caslon", Times, serif;
+    font-weight: bold;
+    background: rgb(119, 187, 191);
+  }
+  p {
+      display: inline;
+      font-family: "Big Caslon", Times, serif;
+      color: #777777;
+  }
+
+  
+  footer {
+    padding: 20px;
+    clear: both;
+    background: rgb(119, 187, 191);
+  }
+
+  .required {
+    font-family: "Big Caslon", Times, serif;
+  }
+
+  figure {
+    position: relative;
+    width: calc(50% - 2rem);
+    overflow: hidden;
+    max-width: max-content;
+    float: left;
+  }
+  img { 
+    display: inline;
+    position: relative;
+  }
+    
+  figcaption {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    font-weight: bold;
+    color: white;
+    background-color: rgba(0,0,0,.5);   
+  }
+  
+  a {
+    float: right;
+    font-style: italic;
+    font-weight: normal;
+    color: rgb(221, 221, 221);
+  }
+
+  #name {
+    line-height: 30px;
+  }
+  #email {
+    line-height: 30px;
+  }
+
+  #submit_button {
+    font-family: "Big Caslon", Times, serif;
+    line-height: 30px;
+    font-size: 110%;
+  }
+      
