@@ -1,14 +1,14 @@
 * {
     box-sizing: border-box;
     text-align: left;
-    background-image: url("symphony.png");
+    
 
   }
   
   body {
     font-size: 24px;
     line-height: 32px;
-
+    
   }
   
   .menu {
@@ -25,6 +25,8 @@
     color: darkslategrey;
     border-color: #dddddd;
     border: 4px;
+    width: 960px;
+    margin: auto;
   }
 
   h1 {
@@ -94,11 +96,13 @@
   p {
       display: inline;
       font-family: "Big Caslon", Times, serif;
-      color: #777777;
+      position: relative;
+      color: darkslategrey;
   }
 
   
   footer {
+    margin-top: 20px;
     padding: 20px;
     clear: both;
     background: rgb(119, 187, 191);
@@ -114,10 +118,13 @@
     overflow: hidden;
     max-width: max-content;
     float: left;
+    margin: 40px 15px 20px;
   }
   img { 
     display: inline;
-    position: relative;
+    position: static;
+    float: left;
+    margin-right: 20px;
   }
     
   figcaption {
@@ -150,4 +157,9 @@
     line-height: 30px;
     font-size: 110%;
   }
-      
+  
+  .clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
